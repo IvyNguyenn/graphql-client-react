@@ -1,0 +1,27 @@
+.user-list-wrapper.table {
+  border-collapse: collapse;
+  width: 100%;
+  border-top-left-radius: 8px;
+}
+
+.user-list-wrapper.table,
+th,
+td {
+  border: 1px solid gray;
+}
+
+.user-list-wrapper.table thead th {
+  padding: 15px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 15px;
+}
+
+.user-list-wrapper.table tbody th {
+  padding: 10px;
+  font-weight: normal;
+}
+
+.user-list-wrapper.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
